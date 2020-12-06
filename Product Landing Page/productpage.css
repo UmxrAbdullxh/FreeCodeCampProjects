@@ -1,0 +1,165 @@
+#body{
+  background-color: #EAF0F0;
+}
+
+#page-wrapper{
+  position: relative;
+}
+
+#header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#header-img{
+  height: 70px;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+.logo {
+  width: 60vw;
+}
+
+
+#nav-bar{
+  float: right;
+  margin-right: 1em;
+  margin-top: 0.5em;
+}
+
+.nav-link{
+  padding: 2em;
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+#contact{
+  text-align: center;
+  padding: 2em;
+  font-size: 1.5em;
+}
+
+#email{
+  width: 250px;
+  padding: 0.5em;
+}
+
+#submit{
+  width: 150px;
+  font-size: 0.7em;
+  font-weight: bold;
+  background-color:yellow;
+  border: 1px solid;
+}
+
+.cont{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.3em;
+}
+
+#Features{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid white;
+  background-color: white;
+}
+  
+
+  .cont-ft{
+  padding: 1em;
+}
+
+#HowItWorks{
+  padding: 1em;
+  text-align: center;
+}
+
+#Pricing {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+width: calc(100% / 3);
+margin: 10px;
+border: 1px solid #000;
+border-radius: 3px;
+}
+
+.product-name {
+  background-color:  #D0D3D4 ;
+  color: black;
+  padding: 0.2em 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.pro-elements{
+  font-size: 1.5em;
+  list-style-type: none;
+  text-align: center;
+  padding: 1em;
+}
+
+.amount{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: -25px;
+}
+
+.pro-li{
+  padding: 0.5em;
+}
+
+.btn{
+  text-align: center;
+  padding: 0.5em;
+  background-color: yellow;
+  color: #000;
+  border: 1px solid black;
+  font-weight: bold;
+  margin-bottom: -50px;
+}
+
+footer{
+  padding: 1em;
+  background-color: #D0D3D4 ;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.span-link{
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 20px;
+  color: #000;
+}
+
+.project-c{
+  position: absolute;
+  margin-right: 500px;
+  font-size: 20px;
+}
+
+
+
+
