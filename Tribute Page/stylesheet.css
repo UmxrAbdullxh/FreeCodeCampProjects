@@ -1,0 +1,45 @@
+#main{
+  background-color: #E0E0E0;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  }
+
+#title{
+  text-align : center;
+}
+
+p{
+  margin-left: 10px;
+}
+
+#img-div{
+  background-color: white;
+box-shadow: 5pxpx 10px 5px grey;
+}
+
+#image{
+  padding: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 100%;
+}
+
+#img-caption{
+  text-align: center;
+  font-size: large;
+  padding: 0.2em;
+}
+
+#tribute-info{
+  margin: 10px;
+}
+
+#tribute{
+  font-style: italic;
+}
+
+#tribute-link{
+  margin: 10px;
+}
