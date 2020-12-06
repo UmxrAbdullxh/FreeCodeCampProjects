@@ -1,0 +1,57 @@
+#main-body{
+  background: url("https://images8.alphacoders.com/667/thumb-1920-667873.png") fixed center;
+  text-align: center;
+}
+
+#title{
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+}
+
+#description{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+}
+
+#survey-form{
+  background-color: #ffffff;
+  opacity: 0.6;
+  margin: auto;
+  width: 500px;
+  padding: 2.5em;
+}
+
+#name{
+  width: 300px;
+  padding: 0.3em;
+}
+
+#email{
+  width: 300px;
+  padding: 0.3em;
+}
+
+#number{
+  width: 300px;
+  padding: 0.3em;
+}
+
+.desc2{
+  font-size: 23px;
+}
+
+#dropdown{
+  width: 300px;
+  padding: 0.3em;
+}
+
+.inptype{
+  font-size: 23px;
+}
+
+#submit{
+  width: 375px;
+  padding: 0.5em;
+  background-color: green;
+  color: white;
+}

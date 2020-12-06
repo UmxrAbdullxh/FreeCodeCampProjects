@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <body id="main-body">
+      <header>
+        <h1 id='title'>Test Survey Form</h1>
+        <p id='description'>Just making a test survey form using html and css.</p>
+      </header>
+        <form id='survey-form'>
+          <label id="name-label" for="name"> Name</label>
+          <input type='text' id="name" name="name" placeholder="Enter your name" required><br></br>
+          <label id="email-label" for="email">Email</label>
+          <input type="email" id='email' name='email' placeholder="Enter your email" required><br></br>
+      <label id="number-label" for="number">Age</label>
+      <input type="number" id="number" name="number" placeholder="Enter your age" min="0" max="150" required><br></br>
+    <p class="desc2">Which option describes you best?</p>
+    <select id="dropdown" required>
+      <option value="Student">Student</option>
+      <option value="Full time Learner">Full time learner</option>
+      <option value="Part time job">Part time job</option>
+      <option value="Full time job">Full time job</option>
+      <option value="Other">Other</option>
+    </select>
+    <p class="desc2">How do you feel about this form?</p>
+    <label class="inptype">
+      <input type="radio" name="radiofield" value="good" >Good</label>
+    <label class="inptype">
+      <input type="radio" name="radiofield" value="Needs improvement">Needs improvement</label>
+    <label class = "inptype">
+      <p class="desc2">What would you like to be improved?</p>
+      <label>
+        <input type="checkbox" value="Color">Color</label><br>
+      <label>
+        <input type="checkbox" value="Font">Font</label><br>
+      <label>
+        <input type="checkbox" value="Background">Background<label><br>
+        <p class="desc2">Any comments or suggestions</p>
+        <textarea rows="10" cols="50">Enter comments here</textarea><br></br>
+        <button id="submit" type="Submit" value="Submit">Submit</button>
+        </form>
+      </body>
+  </head>
+</html>
